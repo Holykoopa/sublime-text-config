@@ -1,0 +1,74 @@
+{
+    "name": "Salaryman",
+
+    "globals": {
+        "background": "#000000",
+        "foreground": "#FFFFFF",
+        "caret": "#FFFFFF",
+        "line_highlight": "#111111",
+        "selection": "#222222",
+        "invisibles": "#333333"
+    },
+
+    "rules": [
+        {
+            "name": "Comments",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "#808080"
+        },
+
+        {
+            "name": "Strings",
+            "scope": "string, punctuation.definition.string",
+            "foreground": "#33CC66"
+        },
+
+        {
+            "name": "Constants & Numbers",
+            "scope": "constant, support.constant",
+            "foreground": "#3399FF"
+        },
+
+        {
+            "name": "Variables",
+            "scope": "variable, variable.other, variable.parameter, variable.language",
+            "foreground": "#FFFFFF"
+        },
+
+        {
+            "name": "Functions",
+            "scope": "entity.name.function, support.function, meta.function-call, variable.function",
+            "foreground": "#FF9933"
+        },
+
+        {
+            "name": "Types & Classes",
+            "scope": "entity.name.type, entity.name.class, support.type, storage.type",
+            "foreground": "#FFFFFF"
+        },
+
+        {
+            "name": "Control Flow",
+            "scope": "keyword.control, keyword.control.conditional, keyword.control.repeat, keyword.control.switch",
+            "foreground": "#9966CC"
+        },
+
+        {
+            "name": "Other Keywords",
+            "scope": "keyword, storage.modifier, storage",
+            "foreground": "#9966CC"
+        },
+
+        {
+            "name": "Operators",
+            "scope": "keyword.operator",
+            "foreground": "#FFFFFF"
+        },
+
+        {
+            "name": "Punctuation",
+            "scope": "punctuation",
+            "foreground": "#FFFFFF"
+        }
+    ]
+}

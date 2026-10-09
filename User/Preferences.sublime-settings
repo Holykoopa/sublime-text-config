@@ -1,0 +1,25 @@
+{
+	// Editor Display
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "salaryman.sublime-color-scheme",
+	"draw_white_space": "selection",
+
+	// Font & Typography
+	"font_size": 14,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+
+	// Behavior & Formatting
+	"tab_size": 2,
+	"trim_trailing_white_space_on_save": true,
+	"ensure_newline_at_eof_on_save": true,
+
+	// Sidebar & Layout
+	"bold_folder_labels": true,
+	"overlay_scroll_bars": "enabled",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": true,
+}
